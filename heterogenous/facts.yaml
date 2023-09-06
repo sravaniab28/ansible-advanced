@@ -1,5 +1,5 @@
 - name: understand facts
-  hosts: centos:ubuntu #all
+  hosts: centos #all
   become: yes
   tasks:
   - name: print all the facts
