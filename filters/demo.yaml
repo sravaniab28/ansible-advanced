@@ -2,7 +2,7 @@
   hosts: localhost
   vars:
     NAME: Sivakumar Reddy
-    tasks:
+  tasks:
   - name: convert into upper case
     debug:
       msg: "Hello {{ NAME | upper }}"
